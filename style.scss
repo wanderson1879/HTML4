@@ -1,3 +1,16 @@
-.rack {
-    color: rgb(185, 130, 59);
+@charset "UTF-8";
+/*基本：フォント*/
+body {
+    color: #222222;
+    font-family: sans-serif;
+}
+
+/*リセット　/ ノーマライズ　/ サニタイズ　*/
+body{
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }

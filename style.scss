@@ -5,6 +5,17 @@ body {
     font-family: sans-serif;
 }
 
+/*基本：画像*/
+figure {
+    margin:0;
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+    vertical-align:bottom;
+}
+
 /*リセット　/ ノーマライズ　/ サニタイズ　*/
 body{
     margin: 0;
@@ -14,6 +25,46 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+/*記事*/
+.content {
+    margin:36px 20px 74px;
+    h2 {
+        display:flex;
+        align-items:center;
+        @media (min-width:768px) {
+            margin-left:-57.5px;
+        }
+
+    }
+
+    h2::before{
+        content:url(img/mark.svg);
+        margin-right:10px;
+        line-height:1;
+    }
+    
+    
+    @media (min-width:768px) {
+        max-width: 720px;
+        margin:64px auto 90px;
+        padding-left:70px;
+        padding-right:70px;
+    }
+   
+}
+
+/*ヘッダー画像*/
+.headimg {
+   img {   width:100%;
+        height:200px;
+        object-fit:cover;
+        @media (min-width:768px) {
+            height: 393px;
+        }
+    }
+    }
+    
 
 h1 {
     margin-top: 21px;

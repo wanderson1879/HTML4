@@ -185,6 +185,25 @@ a {
     }
 }
 
+/* ヘッダー＆フッター:住所　*/
+.address {
+    margin-top: 13px;
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/*ヘッダー＆フッター:コピーライト*/
+.copy {
+    margin-top: 11px;
+    margin-bottom: 0;
+    font-size: 11px;
+    @media (min-width:768px) {
+        margin-top: 19px;
+        font-size: 12px;
+    }
+}
+
 h1 {
     margin-top: 21px;
     margin-bottom: 52px;

@@ -134,11 +134,55 @@ a {
         margin-top: 43px;
         margin-bottom: 44px;
     }
+    .nav ul {
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 12px;
+        @media (min-wodth:768px) {
+            margin-top: 0;
+            font-size: 16px;
+        }
+    }
 }
+/*ヘッダー＆フッター:サイト名*/
+.site {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  
+    }
+
+/*ヘッダー＆フッター:ナビゲーションメニュー*/
+.nav {
+    ul{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li:not(:last-child){
+            margin-right: 20px;
+            @media (min-width:768px) {
+                margin-right: 40px;
+            }
+        }
+    }
+    a:hover {
+        color: #ea8c06;
+    }
+}
+
 
 .footer {
     margin-top: 36px;
     margin-bottom: 36px;
+    .nav ul {
+        margin-top: 35px;
+        font-size: 11px;
+        @media (min-width:768px) {
+            margin-top: 0;
+            font-size: 12px;
+        }
+    }
 }
 
 h1 {

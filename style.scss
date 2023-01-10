@@ -263,6 +263,49 @@ a {
     }
 }
 
+/*人気のシステム　*/
+.systems{
+    margin-bottom: 74px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    h2{
+        margin-top: 18px;
+        margin-bottom: 66px;
+        font-weight: 900;
+    }
+}
+
+.sys {
+    img {
+        width: 82px;
+        border: solid 8px #7fa9aa;
+        border-radius: 50%;
+        box-sizing: border-box;
+    }
+    .subtitle {
+        margin-top: 31px;
+        margin-bottom: 0;
+        color: #888888;
+        font-weight: normal;
+    }
+    h3 {
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-family: 'Noto Sans JP',sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    p {
+        margin-top: 20px;
+        margin-bottom: 0;
+        text-align: left;
+    }
+    :not(:last-child){
+        margin-bottom: 54px;
+    }
+}
+
 
 .footer {
     margin-top: 36px;

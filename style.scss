@@ -242,6 +242,28 @@ a {
     }
 }
 
+/*メッセージ　（トップ）*/
+.msgtop {
+    margin-bottom: 74px;
+    padding: 110px 20px;
+    background-image: url(img/plan.jpg);
+    @media (min-width:768px) {
+        max-width: 1088px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 110px;
+        padding-right: 56px;
+        box-sizing: border-box;
+        h2,p {
+            max-width: 515px;
+            margin-right: 0;
+            margin-left: auto;
+            text-align: left;
+        }
+    }
+}
+
+
 .footer {
     margin-top: 36px;
     margin-bottom: 36px;
